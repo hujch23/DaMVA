@@ -11,15 +11,15 @@
 ### 👒 1.1 Install habitat-lab 
 ```bash
 # clone our repo
-git clone https://github.com/hujch23/World-Model-Navigation.git
-cd World-Model-Navigation
+git clone https://github.com/hujch23/DaMVA.git
+cd DaMVA
 
 # clone habitat-lab code
 git submodule init
 git submodule update
 
 # create conda env
-conda create -n World-Model-Navigation python=3.8
+conda create -n DaMVA python=3.8
 
 # install habitat-sim
 conda install habitat-sim=0.2.2 withbullet headless -c conda-forge -c aihabitat

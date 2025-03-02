@@ -1,6 +1,10 @@
 # DaMVA
 
-## 0. overview
+## 🌟0. Overview 
+
+🙌 Official implementation of IROS 2025 under-review paper "Towards Efficient Image-Goal Navigation: A Self-Supervised Transformer-Based Reinforcement Learning Approach".
+
+
 
 ## 1. Install and Prepare Datasets for Image-goal Navigation
 

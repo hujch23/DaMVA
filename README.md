@@ -2,7 +2,7 @@
 
 ## 🌟0. Overview 
 
-🙌 Official implementation of IROS 2025 under-review paper "Towards Efficient Image-Goal Navigation: A Self-Supervised Transformer-Based Reinforcement Learning Approach".
+🙌 Official implementation of the IROS 2025 accepted paper “Towards Efficient Image-Goal Navigation: A Self-Supervised Transformer-Based Reinforcement Learning Approach”.
 
 ![Example Image](video.gif) 
 

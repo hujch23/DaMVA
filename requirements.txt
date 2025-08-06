@@ -1,0 +1,14 @@
+# 训练
+python run.py --overwrite --exp-config exp_config/ddppo_imagenav_gibson.yaml,policy,reward,dataset,sensors,early-fusion --run-type train --model-dir results/imagenav/early-fusion
+tensorboard --logdir=/home/hsf/FGPrompt/results
+
+# 测试
+Gibson
+python run.py --exp-config exp_config/ddppo_imagenav_gibson.yaml,policy,reward,dataset,sensors,early-fusion,eval --run-type eval --model-dir results/imagenav/early-fusion-r9 habitat_baselines.eval_ckpt_path_dir results/ckpt.2.pth habitat_baselines.eval.split val_easy
+
+HM3D
+python run.py --exp-config exp_config/ddppo_imagenav_gibson.yaml,policy,reward,dataset-hm3d,sensors,early-fusion,eval --run-type eval --model-dir results/imagenav/early-fusion-r9 habitat_baselines.eval_ckpt_path_dir results/ckpt.2.pth habitat_baselines.eval.split val_hard
+
+MP3D
+python run.py --exp-config exp_config/ddppo_imagenav_gibson.yaml,policy,reward,dataset-mp3d,sensors,early-fusion,eval --run-type eval --model-dir results/imagenav/early-fusion-r9 habitat_baselines.eval_ckpt_path_dir results/ckpt.2.pth habitat_baselines.eval.split test_hard
+

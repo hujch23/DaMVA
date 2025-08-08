@@ -81,8 +81,8 @@ def read_json_or_gzip(file_path):
 
 def main():
     # 文件名设置
-    input_file = '/home/hsf/FGPrompt/data/datasets/imagenav/mp3d/v1/curved/test_hard2.json'  # 输入文件名 # 输入文件名
-    output_file = '/home/hsf/FGPrompt/data/datasets/imagenav/mp3d/v1/curved/test_hard.json.gz'  # 输出文件名（.gz格式）
+    input_file = 'yourpath/FGPrompt/data/datasets/imagenav/mp3d/v1/curved/test_hard2.json'  # 输入文件名 # 输入文件名
+    output_file = 'yourpath/FGPrompt/data/datasets/imagenav/mp3d/v1/curved/test_hard.json.gz'  # 输出文件名（.gz格式）
 
     try:
         # 读取输入文件
